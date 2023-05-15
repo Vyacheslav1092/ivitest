@@ -1,0 +1,28 @@
+.stage-2 {
+    padding: 100px 0;
+}
+
+.wrap-diamond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.diamond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4%;
+    width: 22vw;
+    max-width: 250px;
+    height: 18vw;
+    max-height: 200px;
+    font-size: 8vw;
+    line-height: 1.1;
+    color: $white;
+    background-color: $main-color;
+    clip-path: polygon(25% 0, 75% 0, 100% 35%, 50% 99%, 0 35%);
+    cursor: pointer;
+}
+
